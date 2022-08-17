@@ -1,3 +1,5 @@
+use ruco_cli::RucoCli;
+
 fn main() {
-    println!("Hello, world!");
+    RucoCli::start_cli();
 }
