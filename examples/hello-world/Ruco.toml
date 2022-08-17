@@ -1,0 +1,13 @@
+[project]
+name = "hello-world"
+version = "0.1.0"
+edition = "2021"
+
+[runtime]
+# Commented options are the defualt options 
+#version = "defualt"
+#entrypoint = "main.ruco"
+
+[scripts]
+start = "ruco run"
+dev = "ruco --dev"

@@ -1,0 +1,5 @@
+require std
+
+fu main |arg1, arg2| do
+  std::print("Hello world")
+ck
